@@ -11,4 +11,10 @@
         path="poky"
         revision="morty"/>
 
+     <project name="meta-odroid"
+        remote="github"
+        path="mecno/meta-odroid"
+        revision="master"/>
+
+
 </manifest>
