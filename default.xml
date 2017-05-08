@@ -1,20 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="yoctoproject"
-        fetch="git://git.yoctoproject.org/"/>
-
-    <remote name="github"
-        fetch="git://github.com/"/>
-
-    <project name="poky"
-        remote="yoctoproject"
-        path="poky"
-        revision="morty"/>
-
-     <project name="meta-odroid"
-        remote="github"
-        path="mecno/meta-odroid"
-        revision="master"/>
-
+  <remote name="yoctoproject" fetch="git://git.yoctoproject.org/"/>
+  <remote name="github" fetch="git://github.com/"/>
+  
+  <project name="poky" remote="yoctoproject" path="poky" revision="morty"/>
+  <project name="mecno/meta-odroid" remote="github" path="meta-odroid" revision="master"/>
 
 </manifest>
