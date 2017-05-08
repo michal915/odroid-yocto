@@ -6,6 +6,6 @@
   
   <project name="poky" remote="yoctoproject" path="poky" revision="morty"/>
   <project name="mecno/meta-odroid" remote="github" path="meta-odroid" revision="master"/>
-  <project name="meta-openembedded" remote="openembedded" revision="master"/>
+  <project name="meta-openembedded" remote="openembedded" revision="jethro"/>
 
 </manifest>
