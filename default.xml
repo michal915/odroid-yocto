@@ -11,8 +11,9 @@
         path="poky"
         revision="morty"/>
 
-    <project name="memco/meta-odroid"
-        remote="github"
-        path="meta-odroid"
-        revision="master"/>
+    <project name="meta-raspberrypi"
+        remote="yoctoproject"
+        path="poky/meta-raspberrypi"
+        revision="morty"/>
+
 </manifest>
