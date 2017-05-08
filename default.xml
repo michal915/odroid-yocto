@@ -4,5 +4,5 @@
     <remote name="github"fetch="git://github.com/"/>
 
     <project name="poky" remote="yoctoproject" path="poky" revision="morty"/>
-    <project name="menco/meta-odroid" remote="github" path="meta-odroid" revision="master"/>
+    <!--project name="menco/meta-odroid" remote="github" path="meta-odroid" revision="master"/-->
 </manifest>
