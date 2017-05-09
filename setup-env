@@ -1,2 +1,2 @@
-export TEMPLATECONF=../sample-conf/
+export TEMPLATECONF=../odroid-config/conf
 source poky/oe-init-build-env $1
