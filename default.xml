@@ -4,7 +4,9 @@
   <remote name="github" fetch="git://github.com/"/>
   <remote name="openembedded" fetch="git://git.openembedded.org"/>
 
-  <project name="michal915/odroid-yocto" remote="github" revision="master"/>
+  <project name="michal915/odroid-yocto" remote="github" path="odroid-config" revision="master">
+    <linkfile dest="setup-env" src="setup-env"/>
+  </project>
     
   <project name="poky" remote="yoctoproject" path="poky" revision="morty"/>
   <project name="mecno/meta-odroid" remote="github" path="meta-odroid" revision="master"/>
