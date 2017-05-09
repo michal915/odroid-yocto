@@ -8,8 +8,8 @@
     <linkfile dest="setup-env" src="setup-env"/>
   </project>
     
-  <!--project name="poky" remote="yoctoproject" path="poky" revision="morty"/>
+  <project name="poky" remote="yoctoproject" path="poky" revision="morty"/>
   <project name="mecno/meta-odroid" remote="github" path="meta-odroid" revision="master"/>
-  <project name="meta-openembedded" remote="openembedded" revision="morty"/-->
+  <project name="meta-openembedded" remote="openembedded" revision="morty"/>
 
 </manifest>
